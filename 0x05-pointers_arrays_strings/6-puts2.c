@@ -8,7 +8,7 @@
  * Return: nothing
  */
 
-void puts2(car *str)
+void puts2(char *str)
 {
 	int i = 0;
 
