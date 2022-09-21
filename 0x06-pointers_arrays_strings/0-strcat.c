@@ -1,8 +1,8 @@
-#includ "main.h"
+#include "main.h"
 
 /*
- * _strcat - concatenates string pointed by @rc
- *
+ * _strcat - concatenates string pointed by @src
+ *to the end of the string that is pointed to by @dest
  * @dest: string to be appended
  * @src: string to be concatenated
  *
