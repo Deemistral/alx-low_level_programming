@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- *_strncpy - copies a string including the terminating null byte
- *If the length of the source string is less than the maximum byte number,
- *the remainder of the destination string is filled with null bytes
- *@dest: a buffer storing the string copy
- *@src: the source string
- *@n: max number of byte copied
- *Return: return value
+ * _strncpy - copies a string including the terminating null byte
+ * If the length of the source string is less than the maximum byte number,
+ * the remainder of the destination string is filled with null bytes
+ * Works identically to the standard library function `strncpy`.
+ * @dest: a buffer storing the string copy
+ * @src: the source string
+ * @n: max number of byte copied
+ * Return: return value
  */
 
 char *_strncpy(char *dest, char *src, int n)
